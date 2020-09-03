@@ -6,7 +6,7 @@
 % Version 1,2020-09-03
 
 
-% clc;clear;close all
+clc;clear;close all
 addpath('.\libsvm-3.21\matlab');
 addpath(genpath(cd));
 
