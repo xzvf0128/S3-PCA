@@ -13,10 +13,10 @@ addpath(genpath(cd));
 num_PC           =   30;  % THE OPTIMAL PCA DIMENSION.
 % num_Pixel        =   100; % THE OPTIMAL Number of Superpixel. Indian:75, PaviaU:30, Salinas:100
 % k                =   15;  % THE OPTIMAL Number of spatial neighbors.Indian:15, PaviaU:13, Salinas:15
-trainpercentage  =   10;  % Training Number per Class
+trainpercentage  =   30;  % Training Number per Class
 iterNum          =   10;  % The Iteration Number
 
-database         =   'PaviaU';
+database         =   'Indian';
 
 %% load the HSI dataset
 if strcmp(database,'Indian')
